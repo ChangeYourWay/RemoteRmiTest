@@ -1,1 +1,1 @@
-# RemotemiTest
+# RemoteRmiTest

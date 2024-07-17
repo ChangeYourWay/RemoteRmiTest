@@ -1,0 +1,10 @@
+grant {
+    // 允许所有权限
+    permission java.security.AllPermission;
+
+    // 允许连接到本地主机上的指定端口
+    permission java.net.SocketPermission "127.0.0.1:1099", "connect,resolve";
+
+    // 其他所需的权限
+    // ...
+};
